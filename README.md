@@ -8,7 +8,7 @@ I implemened this as `fsx` script rather than build a console application. I fin
 
 You'll find the input inside `jellyfish.txt`. The script outputs to console.
 
-My general strategy was to start with the domain and model the types involved. Once I had those I went ahead and created the use cases. To highlight, I have an `updateGame` function which takes a `Game` and a `Command` and then computes the next state of the world. 
+My general strategy was to start with the domain and model the types involved. Once I had those I went ahead and created the use cases. The main part to focus on is the `updateGame` function which takes a `Game` and a `Command` and then computes the next state of the world. 
 
 The remainder of the code is focused on reading the input text file, constructing the game state, running all the commands, and printing some output.
 
